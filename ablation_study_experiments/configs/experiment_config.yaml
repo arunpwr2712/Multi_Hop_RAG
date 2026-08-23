@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "paths": {
+    "backend_root": "backend",
+    "results_dir": "ablation_study_experiments/results",
+    "config_path": "ablation_study_experiments/configs/experiment_config.yaml"
+  },
+  "dataset": {
+    "max_samples_per_dataset": 25
+  },
+  "retrieval": {
+    "top_k": 5,
+    "iterative_top_k": 4,
+    "max_hops": 3,
+    "max_path_depth": 4,
+    "max_candidate_paths": 3
+  },
+  "models": {
+    "V1": true,
+    "V2": true,
+    "V3": true,
+    "V4": true,
+    "V5": true
+  }
+}

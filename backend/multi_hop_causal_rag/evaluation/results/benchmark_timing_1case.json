@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "datasets": [
+      "C:\\Users\\arunp\\Documents\\project\\M.Tech Major Project\\Multihob_RAG_backend\\backend\\datasets\\raw\\hotpotqa\\dev.json",
+      "C:\\Users\\arunp\\Documents\\project\\M.Tech Major Project\\Multihob_RAG_backend\\backend\\datasets\\raw\\hotpotqa\\train.json"
+    ],
+    "cases": 1,
+    "top_k": 5,
+    "grounding_threshold": 0.35
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python_version": "3.12.6",
+    "cpu_count": 12,
+    "ram_gb": 15.73
+  },
+  "baseline": {
+    "factual_accuracy": 1.0,
+    "causal_completeness": 0.5,
+    "hallucination_rate": 0.0,
+    "multi_hop_quality": 0.5,
+    "precision_at_k": 0.4,
+    "recall_at_k": 1.0,
+    "latency_ms": 6413.129300000037
+  },
+  "multi_hop": {
+    "factual_accuracy": 1.0,
+    "causal_completeness": 1.0,
+    "hallucination_rate": 0.0,
+    "multi_hop_quality": 1.0,
+    "precision_at_k": 0.4,
+    "recall_at_k": 1.0,
+    "latency_ms": 32752.634999999827
+  },
+  "latency": {
+    "baseline_ms": 6413.129300000037,
+    "multi_hop_ms": 32752.634999999827,
+    "slowdown_factor": 5.107122196959235,
+    "baseline_latencies": [
+      6413.129300000037
+    ],
+    "multi_hop_latencies": [
+      32752.634999999827
+    ]
+  },
+  "relative_gain": {
+    "factual_accuracy": 0.0,
+    "causal_completeness": 1.0,
+    "hallucination_reduction": 0.0,
+    "multi_hop_quality": 1.0,
+    "precision_at_k": 0.0,
+    "recall_at_k": 0.0
+  }
+}

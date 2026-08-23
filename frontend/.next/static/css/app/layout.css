@@ -1,0 +1,641 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Space_Grotesk","arguments":[{"subsets":["latin"],"variable":"--font-heading","weight":["500","700"]}],"variableName":"heading"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* vietnamese */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/e1aab0933260df4d-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/b7387a63dd068245-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/36966cca54120369-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/e1aab0933260df4d-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/b7387a63dd068245-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/36966cca54120369-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'Space Grotesk Fallback';src: local("Arial");ascent-override: 89.71%;descent-override: 26.62%;line-gap-override: 0.00%;size-adjust: 109.69%
+}.__className_4f4604 {font-family: 'Space Grotesk', 'Space Grotesk Fallback';font-style: normal
+}.__variable_4f4604 {--font-heading: 'Space Grotesk', 'Space Grotesk Fallback'
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"IBM_Plex_Serif","arguments":[{"subsets":["latin"],"variable":"--font-body","weight":["400","500"]}],"variableName":"body"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/2ef8c3e32805fa0d-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/38944cd53330cfe5-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/7265bd3f9eb7fe28-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/65c344bc49233072-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/91c3caac73720166-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/8c8a7fc34634bdc7-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/3f07cb192fb7bfbf-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/40ee6ffec676ab40-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/88e369b5cf3e60ec-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/aff755c8b4bb3089-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'IBM Plex Serif Fallback';src: local("Times New Roman");ascent-override: 88.04%;descent-override: 23.62%;line-gap-override: 0.00%;size-adjust: 116.43%
+}.__className_e6c984 {font-family: 'IBM Plex Serif', 'IBM Plex Serif Fallback';font-style: normal
+}.__variable_e6c984 {--font-body: 'IBM Plex Serif', 'IBM Plex Serif Fallback'
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --bg-primary: #f5f7fb;
+  --bg-secondary: #dce7f8;
+  --ink-main: #10243a;
+  --ink-soft: #4a6077;
+  --accent-strong: #1f7a8c;
+  --accent-mild: #8ab6d6;
+  --accent-warm: #f4a259;
+  --panel: rgba(255, 255, 255, 0.86);
+  --panel-border: rgba(16, 36, 58, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--ink-main);
+  font-family: var(--font-body), serif;
+  background:
+    radial-gradient(circle at 10% 8%, rgba(244, 162, 89, 0.3), transparent 28%),
+    radial-gradient(circle at 90% 10%, rgba(31, 122, 140, 0.16), transparent 32%),
+    linear-gradient(150deg, var(--bg-primary), var(--bg-secondary));
+}
+
+.chat-shell {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  background: linear-gradient(135deg, rgba(31, 122, 140, 0.16), rgba(138, 182, 214, 0.28));
+  border: 1px solid rgba(31, 122, 140, 0.2);
+  border-radius: 16px;
+  padding: 0.7rem 0.9rem;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
+.eyebrow {
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #195d6a;
+  font-size: 0.72rem;
+}
+
+.chat-header h1 {
+  margin: 0.18rem 0 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.45rem);
+}
+
+.header-actions {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.chat-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-gap: 0.8rem;
+  gap: 0.8rem;
+  align-items: start;
+  min-height: 0;
+  flex: 1 1;
+}
+
+.chat-layout.with-insights {
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+}
+
+.chat-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  align-self: start;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 0.7rem;
+  box-shadow: 0 8px 22px rgba(16, 42, 67, 0.08);
+  min-height: 0;
+  height: 100%;
+}
+
+.chat-scroll {
+  min-height: 0;
+  flex: 1 1;
+  overflow: auto;
+  padding: 0.3rem 0.3rem 0.7rem;
+  display: grid;
+  grid-gap: 0.8rem;
+  gap: 0.8rem;
+  align-content: start;
+  align-items: start;
+}
+
+.empty-state h2 {
+  margin: 0;
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 1.2rem;
+}
+
+.empty-state p {
+  margin: 0.4rem 0 0;
+  color: var(--ink-soft);
+}
+
+.turn-stack {
+  display: grid;
+  grid-gap: 0.45rem;
+  gap: 0.45rem;
+}
+
+.bubble {
+  max-width: min(74ch, 90%);
+  padding: 0.68rem 0.8rem;
+  border-radius: 15px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  animation: fade-in 240ms ease;
+}
+
+.user-bubble {
+  justify-self: end;
+  background: linear-gradient(120deg, #1f7a8c, #2e8a9f);
+  color: #f3fbff;
+  border-bottom-right-radius: 6px;
+}
+
+.assistant-bubble {
+  justify-self: start;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink-main);
+  border: 1px solid rgba(16, 36, 58, 0.13);
+  border-bottom-left-radius: 6px;
+}
+
+.thinking {
+  font-style: italic;
+  color: #3a526a;
+}
+
+.composer {
+  margin-top: 0;
+  display: grid;
+  grid-gap: 0.58rem;
+  gap: 0.58rem;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  padding-top: 0.45rem;
+  border-top: 1px solid rgba(16, 42, 67, 0.08);
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid rgba(16, 42, 67, 0.22);
+  border-radius: 11px;
+  padding: 0.7rem;
+  font: inherit;
+  color: inherit;
+  resize: vertical;
+  min-height: 58px;
+  max-height: 180px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+textarea:focus {
+  outline: 2px solid rgba(31, 122, 140, 0.38);
+  border-color: transparent;
+}
+
+.primary-button,
+.ghost-button {
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-heading), sans-serif;
+  font-size: 0.9rem;
+  transition: transform 140ms ease, opacity 140ms ease;
+}
+
+.primary-button {
+  border: 0;
+  padding: 0.52rem 1rem;
+  color: #fff;
+  background: linear-gradient(90deg, #1f7a8c, #256f8f);
+}
+
+.ghost-button {
+  border: 1px solid rgba(16, 42, 67, 0.25);
+  padding: 0.45rem 0.86rem;
+  background: transparent;
+  color: inherit;
+}
+
+.primary-button:hover,
+.ghost-button:hover {
+  transform: translateY(-1px);
+}
+
+.primary-button:disabled,
+.ghost-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.insights-panel {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 0.7rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 0;
+  height: 100%;
+  box-shadow: 0 8px 22px rgba(16, 42, 67, 0.08);
+}
+
+.chat-panel.hidden-in-fullscreen {
+  display: none;
+}
+
+.chat-layout.insights-fullscreen {
+  grid-template-columns: 1fr;
+}
+
+.insights-panel.is-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  border-radius: 0;
+  border: 0;
+  background: linear-gradient(160deg, rgba(245, 247, 251, 0.98), rgba(220, 231, 248, 0.98));
+  padding: 1rem;
+  box-shadow: none;
+}
+
+.insights-panel.is-fullscreen .insight-content {
+  height: 100%;
+}
+
+.insights-panel.is-fullscreen .graph-canvas {
+  height: calc(100vh - 220px);
+  min-height: 420px;
+}
+
+.insights-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.4rem;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.tab-button {
+  border-radius: 10px;
+  border: 1px solid rgba(16, 42, 67, 0.2);
+  padding: 0.45rem 0.4rem;
+  background: rgba(255, 255, 255, 0.75);
+  color: inherit;
+  font-family: var(--font-heading), sans-serif;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background: linear-gradient(120deg, rgba(31, 122, 140, 0.16), rgba(138, 182, 214, 0.26));
+  border-color: rgba(31, 122, 140, 0.45);
+}
+
+.insight-content {
+  min-height: 0;
+  overflow: auto;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.panel-header h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--font-heading), sans-serif;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip {
+  background: rgba(138, 182, 214, 0.2);
+  border: 1px solid rgba(31, 122, 140, 0.4);
+  border-radius: 999px;
+  padding: 0.2rem 0.56rem;
+  font-size: 0.82rem;
+}
+
+.path-list {
+  margin-top: 0.7rem;
+  display: grid;
+  grid-gap: 0.35rem;
+  gap: 0.35rem;
+}
+
+.path-item {
+  margin: 0;
+  line-height: 1.4;
+  padding: 0.35rem 0.42rem;
+  border-radius: 8px;
+  background: rgba(244, 162, 89, 0.14);
+}
+
+details {
+  margin-top: 0.75rem;
+}
+
+details summary {
+  cursor: pointer;
+  font-family: var(--font-heading), sans-serif;
+}
+
+details pre {
+  margin: 0.5rem 0 0;
+  max-height: 260px;
+  overflow: auto;
+  font-size: 0.8rem;
+  background: #132a3d;
+  color: #d9f0ff;
+  border-radius: 9px;
+  padding: 0.55rem;
+}
+
+.panel-graph {
+  min-height: 380px;
+}
+
+.graph-meta {
+  margin: 0 0 0.6rem;
+  color: var(--ink-soft);
+}
+
+.graph-canvas {
+  height: 380px;
+  border: 1px solid rgba(16, 42, 67, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.graph-empty {
+  min-height: 120px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: 1px dashed rgba(16, 42, 67, 0.3);
+  border-radius: 12px;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.hint {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.error-banner {
+  margin: 0.65rem 0 0;
+  border-radius: 10px;
+  background: rgba(209, 73, 91, 0.18);
+  border: 1px solid rgba(209, 73, 91, 0.4);
+  color: #742131;
+  padding: 0.48rem 0.65rem;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 980px) {
+  .chat-shell {
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .chat-layout {
+    flex: initial;
+  }
+
+  .chat-panel,
+  .insights-panel {
+    height: auto;
+  }
+
+  .chat-scroll {
+    max-height: 52vh;
+  }
+
+  .composer {
+    position: static;
+    background: transparent;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .chat-layout.with-insights {
+    grid-template-columns: 1fr;
+  }
+
+  .insights-panel.is-fullscreen {
+    padding: 0.75rem;
+  }
+
+  .insights-panel.is-fullscreen .graph-canvas {
+    height: calc(100vh - 240px);
+    min-height: 360px;
+  }
+
+  .graph-canvas {
+    height: 360px;
+  }
+
+  .chat-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-actions {
+    width: 100%;
+  }
+
+  .header-actions .ghost-button {
+    flex: 1 1;
+  }
+}
+

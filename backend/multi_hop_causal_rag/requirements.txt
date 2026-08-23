@@ -1,0 +1,9 @@
+sentence-transformers
+faiss-cpu
+networkx
+transformers
+pandas
+numpy
+scikit-learn
+tqdm
+langchain-community

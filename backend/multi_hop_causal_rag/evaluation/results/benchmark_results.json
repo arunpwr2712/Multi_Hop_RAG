@@ -1,0 +1,1602 @@
+{
+  "settings": {
+    "samples": 20,
+    "max_samples_per_dataset": 10,
+    "top_k": 5,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dataset_mix": [
+      "hotpotqa",
+      "worldtree"
+    ]
+  },
+  "baseline": {
+    "summary": {
+      "Precision@K": 0.2,
+      "Recall@K": 1.0,
+      "CCCS": 0.0,
+      "MH-Acc": 0.0,
+      "F1": 0.5328708791208792,
+      "EM": 0.45,
+      "HR": 0.45,
+      "EAA": 1.0,
+      "CDCS": 0.0,
+      "OMRS": 0.15986126373626372
+    },
+    "per_case": [
+      {
+        "index": 0,
+        "id": "5a7a06935542990198eaf050",
+        "dataset": "hotpotqa",
+        "query": "Which magazine was started first Arthur's Magazine or First for Women?",
+        "gold_answer": "Arthur's Magazine",
+        "pred_answer": "According to the retrieved snippets, Arthur's Magazine was started first in 1844",
+        "retrieved_ids": [
+          "5ade7d0655429975fa854eda",
+          "5addf83d5542997dc79070f2",
+          "5a7a06935542990198eaf050",
+          "5ab69e8f554299710c8d1eef",
+          "5abb142e5542992ccd8e7f04",
+          "a4e49486-d525-4746-9518-af4f7c49df52",
+          "ee56f8fa-0916-4764-bb6f-b0feccb12400",
+          "82b99f53-64dd-4b75-9211-a9c57b924136",
+          "b42c27b6-3b86-4815-a528-8d50657dcb68",
+          "b6cc303b-4a70-4396-9c5d-0e30d83d136b"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Arthur's Magazine",
+          "First for Women"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.375,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.11249999999999999
+        }
+      },
+      {
+        "index": 1,
+        "id": "5a879ab05542996e4f30887e",
+        "dataset": "hotpotqa",
+        "query": "The Oberoi family is part of a hotel company that has a head office in what city?",
+        "gold_answer": "Delhi",
+        "pred_answer": "The head office of The Oberoi Group is located in Delhi",
+        "retrieved_ids": [
+          "5a879ab05542996e4f30887e",
+          "5a75d338554299109176e5a0",
+          "2fd4dc3c-a2a1-4db3-a5b4-f62969014455",
+          "8f52476a-a575-4a60-8362-179ef79ea494",
+          "d344b923-5609-4d24-98f0-3d75a04e5b42",
+          "89fc171b-3f50-4c70-979d-d28fc128f708",
+          "27d0b7ad-29b9-4969-9db2-fadae5245977"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Oberoi family",
+          "The Oberoi Group"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.16666666666666669,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.05
+        }
+      },
+      {
+        "index": 2,
+        "id": "5a8d7341554299441c6b9fe5",
+        "dataset": "hotpotqa",
+        "query": "Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?",
+        "gold_answer": "President Richard Nixon",
+        "pred_answer": "According to the retrieved snippets, Matt Groening named the character Milhouse after President Richard Nixon's middle name",
+        "retrieved_ids": [
+          "5ab75e5255429928e1fe3851",
+          "5a7e20e855429934daa2fbd6",
+          "5a86f6b2554299211dda2b6d",
+          "5a764d1c5542992db9473750",
+          "5a8d7341554299441c6b9fe5",
+          "0f4dba22-dad0-478b-8791-04318f40be23",
+          "6e39dc02-ef2d-4151-9f71-82a28b1092c1",
+          "76677649-4367-4f2a-9967-b243929aabfe",
+          "2623c422-bfb7-4eb8-bf6e-0ab96f43c641",
+          "938cf18f-112e-44b3-a4b1-11deaceaf7ff"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Allie Goertz",
+          "Milhouse Van Houten"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.2857142857142857,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.0857142857142857
+        }
+      },
+      {
+        "index": 3,
+        "id": "5a82171f5542990a1d231f4a",
+        "dataset": "hotpotqa",
+        "query": "What nationality was James Henry Miller's wife?",
+        "gold_answer": "American",
+        "pred_answer": "The snippets do not provide information about James Henry Miller's wife",
+        "retrieved_ids": [
+          "5a82171f5542990a1d231f4a",
+          "5ac10565554299012d1db684",
+          "5a795f8755429907847277f8",
+          "5adcfa3e55429947343537eb",
+          "b6bfb06b-5bf5-4b5f-8184-6ee4cd4df585",
+          "6d9c7120-4b8d-429c-b5d3-15b3481c572b",
+          "5ddcff39-fa46-40c4-9fde-f85eb09a4c50",
+          "e64dee01-42e2-45fe-868c-cdc36cb733c3",
+          "9a33e8f8-159a-4466-aff5-87934c45a907"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Peggy Seeger",
+          "Ewan MacColl"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.0
+        }
+      },
+      {
+        "index": 4,
+        "id": "5a84dd955542997b5ce3ff79",
+        "dataset": "hotpotqa",
+        "query": "Cadmium Chloride is slightly soluble in this chemical, it is also called what?",
+        "gold_answer": "alcohol",
+        "pred_answer": "According to the retrieved snippets, Cadmium Chloride is slightly soluble in alcohol",
+        "retrieved_ids": [
+          "5a84dd955542997b5ce3ff79",
+          "5ae082f955429924de1b70f6",
+          "5a74751555429979e288295a",
+          "b86e6834-4309-441e-b2eb-86e226531d14",
+          "worldtree-fact-train-10231",
+          "ee4b47c7-8339-420c-a986-66ea0b99a2da",
+          "d9422d04-992c-4776-a0d4-1b0b73ea2520",
+          "0efea2c9-329e-4334-85dd-fab46f319d1f"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Cadmium chloride",
+          "Ethanol"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.15384615384615385,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.046153846153846156
+        }
+      },
+      {
+        "index": 5,
+        "id": "5a7e36045542991319bc9440",
+        "dataset": "hotpotqa",
+        "query": "Which tennis player won more Grand Slam titles, Henri Leconte or Jonathan Stark?",
+        "gold_answer": "Jonathan Stark",
+        "pred_answer": "There is no mention of Jonathan Stark or any Grand Slam titles won by him in the retrieved snippets",
+        "retrieved_ids": [
+          "5a7e36045542991319bc9440",
+          "5a7cb02f554299683c1c6337",
+          "5a794ebd554299029c4b5f50",
+          "5a749e7955429979e28829c6",
+          "5a90ce475542990a984936d7",
+          "d8c983be-1e1d-4092-a399-e252e0dc8ebb",
+          "0cf45441-58e3-4b71-aa7a-586d417accdd",
+          "81b99258-820a-4f9f-8203-82846d605763",
+          "5e0f4ce7-bafd-4576-9601-82b284676cd0",
+          "f4fca863-62f0-4de7-b038-6edeb91aec24"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Jonathan Stark (tennis)",
+          "Henri Leconte"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.1904761904761905,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.05714285714285715
+        }
+      },
+      {
+        "index": 6,
+        "id": "5adf44985542993a75d2646d",
+        "dataset": "hotpotqa",
+        "query": "Which genus of moth in the world's seventh-largest country contains only one species?",
+        "gold_answer": "Crambidae",
+        "pred_answer": "According to the retrieved snippets, the genus of moth that contains only one species is Parectropis",
+        "retrieved_ids": [
+          "5adf29c15542993a75d263fc",
+          "5adf44985542993a75d2646d",
+          "5ab57e7c554299488d4d99bb",
+          "5a85ed315542996432c57133",
+          "5aba8aa655429901930fa81d",
+          "4c9f6a31-42e9-45ca-a6e5-d072eaac0432",
+          "25fb0fe0-4fbb-4202-8902-a9049d823f04",
+          "dc5478de-e3a4-48c8-a4a2-5fc166a3a02e",
+          "6fc9040b-e9fc-489e-8b4e-fba9475366c2",
+          "9d24cf3a-e1fe-4df9-81c0-58c326c9e1df"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Indogrammodes",
+          "India"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.0
+        }
+      },
+      {
+        "index": 7,
+        "id": "5a832c3455429954d2e2ec41",
+        "dataset": "hotpotqa",
+        "query": "Who was once considered the best kick boxer in the world, however he has been involved in a number of controversies relating to his \"unsportsmanlike conducts\" in the sport and crimes of violence outside of the ring.",
+        "gold_answer": "Badr Hari",
+        "pred_answer": "Based on the retrieved snippets, it appears that Badr Hari was once considered the best kickboxer in the world",
+        "retrieved_ids": [
+          "5a7e677c5542991319bc9491",
+          "5abfbfc15542994516f454ed",
+          "5ae4021a5542996836b02c15",
+          "5a87bbd95542996e4f3088fb",
+          "5a832c3455429954d2e2ec41",
+          "934cec3b-c232-4e90-b351-aa53197d6102",
+          "2781cb4a-839e-4165-ab69-9f320d5421b5",
+          "b0b2c852-e20c-44f3-aaab-cc5b799d836e",
+          "096684d9-1db5-4244-b8ad-6b840749e1fb",
+          "2946e300-771a-455c-8225-330395eca519"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "Global Fighting Championship",
+          "Badr Hari"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.1904761904761905,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.05714285714285715
+        }
+      },
+      {
+        "index": 8,
+        "id": "5a7d0db955429909bec76924",
+        "dataset": "hotpotqa",
+        "query": "The Dutch-Belgian television series that \"House of Anubis\" was based on first aired in what year?",
+        "gold_answer": "2006",
+        "pred_answer": "The Dutch-Belgian television series \"Het Huis Anubis\" that \"House of Anubis\" was based on first aired in September 2006",
+        "retrieved_ids": [
+          "5ab975e05542996be2020505",
+          "5a7d0db955429909bec76924",
+          "5ab73fef5542992aa3b8c7f9",
+          "5a7c11eb5542997c3ec972db",
+          "b4a39093-ffc0-41e0-a4be-0ad04d888a32",
+          "761fcb7e-7d4b-4522-b1fc-f8dabcb517d1",
+          "4f78c2aa-984a-455c-a575-086256432672",
+          "d69746c1-94c0-4f86-a615-5cb01b799d7e",
+          "f83d31df-5483-4916-88b1-f500649e2acc"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "House of Anubis",
+          "Het Huis Anubis"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.09523809523809523,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.028571428571428567
+        }
+      },
+      {
+        "index": 9,
+        "id": "5a89372855429951533612e6",
+        "dataset": "hotpotqa",
+        "query": "What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged?",
+        "gold_answer": "6.213 km long",
+        "pred_answer": "The length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged is not explicitly mentioned in",
+        "retrieved_ids": [
+          "5a89372855429951533612e6",
+          "87294efe-b51a-4858-890a-a0cd4ca835cc",
+          "ad7f3204-56ba-4864-91d4-c6864b16bc82",
+          "63404bd7-9c0f-40fd-ae81-4e5583852593",
+          "b66a4573-c791-4fa4-8f9c-887fffabdeb0",
+          "c5e66c82-22f7-4c6d-9686-ac9347b34543"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "2013 Liqui Moly Bathurst 12 Hour",
+          "Mount Panorama Circuit"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.0
+        }
+      },
+      {
+        "index": 10,
+        "id": "MDSA_2009_5_16",
+        "dataset": "worldtree",
+        "query": "Students visited the Morris W. Offit telescope located at the Maryland Space Grant Observatory in Baltimore. They learned about the stars, planets, and moon. The students recorded the information below. \u2022 Star patterns stay the same, but their locations in the sky seem to change. \u2022 The sun, planets, and moon appear to move in the sky. \u2022 Proxima Centauri is the nearest star to our solar system. \u2022 Polaris is a star that is part of a pattern of stars called the Little Dipper. Which statement best explains why the sun appears to move across the sky each day? (A) The sun revolves around Earth. (B) Earth rotates around the sun. (C) The sun revolves on its axis. (D) Earth rotates on its axis.",
+        "gold_answer": "Earth rotates on its axis",
+        "pred_answer": "Earth rotates on its axis",
+        "retrieved_ids": [
+          "worldtree-fact-train-10",
+          "worldtree-fact-train-15",
+          "worldtree-fact-test-15501",
+          "worldtree-fact-train-0",
+          "worldtree-fact-train-35"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "73fa-1e22-26a8-1a7c"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 11,
+        "id": "Mercury_SC_415491",
+        "dataset": "worldtree",
+        "query": "Earth orbits the Sun once a year. About how many times does the moon orbit Earth in a year? (A) 1 (B) 7 (C) 13 (D) 28",
+        "gold_answer": "13",
+        "pred_answer": "13",
+        "retrieved_ids": [
+          "worldtree-fact-dev-12697",
+          "worldtree-fact-train-174",
+          "worldtree-fact-train-218",
+          "worldtree-fact-train-219",
+          "worldtree-fact-train-220"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "1a29-2268-eeb7-edba"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 0.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 12,
+        "id": "Mercury_SC_408040",
+        "dataset": "worldtree",
+        "query": "Melinda learned that days in some seasons have more daylight hours than in other seasons. Which season receives the most hours of sunlight in the Northern Hemisphere? (A) fall (B) spring (C) summer (D) winter",
+        "gold_answer": "summer",
+        "pred_answer": "summer",
+        "retrieved_ids": [
+          "worldtree-fact-train-93",
+          "worldtree-fact-test-15558",
+          "worldtree-fact-test-15582",
+          "worldtree-fact-test-15614",
+          "worldtree-fact-test-15773"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "564e-eb72-a12b-dbaa",
+          "3f3f-f2cb-ae3d-f238"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 13,
+        "id": "NYSEDREGENTS_2014_4_2",
+        "dataset": "worldtree",
+        "query": "About how long does it take Earth to make one revolution around the Sun? (A) a day (B) a week (C) a month (D) a year",
+        "gold_answer": "a year",
+        "pred_answer": "a year",
+        "retrieved_ids": [
+          "worldtree-fact-train-174",
+          "worldtree-fact-train-218",
+          "worldtree-fact-train-219",
+          "worldtree-fact-train-220",
+          "worldtree-fact-train-224"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "e682-f47d-cc9c-a67c"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 14,
+        "id": "Mercury_SC_400655",
+        "dataset": "worldtree",
+        "query": "Which of these is the greatest change that can be observed between summer and winter? (A) the amounts of daylight (B) the heights of ocean waves (C) the numbers of storms (D) the sizes of clouds",
+        "gold_answer": "the amounts of daylight",
+        "pred_answer": "the amounts of daylight",
+        "retrieved_ids": [
+          "worldtree-fact-train-124",
+          "worldtree-fact-train-2455",
+          "worldtree-fact-train-2477",
+          "worldtree-fact-train-3897",
+          "worldtree-fact-dev-14201"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "3d48-ef4c-bf06-a0c5",
+          "b695-f668-1dec-659c",
+          "624a-c1ec-8c85-45ce"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 15,
+        "id": "MDSA_2011_5_6",
+        "dataset": "worldtree",
+        "query": "Planets in our solar system have different solar years. Which statement explains the cause of an Earth solar year? (A) Earth rotates around the sun. (B) Earth revolves around the sun. (C) The sun rotates around Earth. (D) The sun revolves around Earth.",
+        "gold_answer": "Earth revolves around the sun",
+        "pred_answer": "Earth revolves around the sun",
+        "retrieved_ids": [
+          "worldtree-fact-train-174",
+          "worldtree-fact-train-218",
+          "worldtree-fact-train-219",
+          "worldtree-fact-train-220",
+          "worldtree-fact-train-224"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "e682-f47d-cc9c-a67c"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 16,
+        "id": "Mercury_7011270",
+        "dataset": "worldtree",
+        "query": "About how long does it take for the Moon to complete one revolution around Earth? (A) 7 days (B) 30 days (C) 90 days (D) 365 days",
+        "gold_answer": "30 days",
+        "pred_answer": "30 days",
+        "retrieved_ids": [
+          "worldtree-fact-train-870",
+          "worldtree-fact-dev-12713",
+          "worldtree-fact-dev-12724",
+          "worldtree-fact-test-15647",
+          "worldtree-fact-test-15767"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "b9b5-0df2-9cca-ef36",
+          "74a1-0a11-f9ce-9501",
+          "9baa-2f01-60c7-64fa"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 17,
+        "id": "Mercury_7137463",
+        "dataset": "worldtree",
+        "query": "India is in the Northern Hemisphere and Australia is in the Southern Hemisphere. In June, it is summer in India and winter in Australia. What is the main reason the seasons are opposite in the two countries? (A) because Earth is tilted on its axis (B) because the Sun rotates on its axis (C) because Earth revolves around the Sun (D) because of the distance between the countries",
+        "gold_answer": "because Earth is tilted on its axis",
+        "pred_answer": "because Earth is tilted on its axis",
+        "retrieved_ids": [
+          "worldtree-fact-dev-12721",
+          "worldtree-fact-test-15560",
+          "worldtree-fact-test-15623",
+          "worldtree-fact-train-180",
+          "worldtree-fact-train-195"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "0b7b-cf23-e64f-4200"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 18,
+        "id": "Mercury_189770",
+        "dataset": "worldtree",
+        "query": "Why has only one-half of the Moon ever been observed from Earth? (A) The Moon does not rotate on its axis. (B) The Moon is not visible during the day. (C) The Moon has phases that coincide with its rate of rotation. (D) The Moon rotates at the same rate that it revolves around Earth.",
+        "gold_answer": "The Moon rotates at the same rate that it revolves around Earth",
+        "pred_answer": "The Moon does not rotate on its axis",
+        "retrieved_ids": [
+          "worldtree-fact-train-308",
+          "worldtree-fact-train-320",
+          "worldtree-fact-dev-12723",
+          "worldtree-fact-test-15766",
+          "worldtree-fact-train-309"
+        ],
+        "pred_chain": [],
+        "true_chain": [],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.2,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.06
+        }
+      },
+      {
+        "index": 19,
+        "id": "Mercury_177818",
+        "dataset": "worldtree",
+        "query": "The length of time between night and day on Earth varies throughout the year. This time variance is explained primarily by (A) the position of the Sun. (B) the position of the Moon. (C) Earth's angle of tilt (D) Earth's distance from the Sun",
+        "gold_answer": "Earth's angle of tilt",
+        "pred_answer": "Earth's angle of tilt",
+        "retrieved_ids": [
+          "worldtree-fact-train-334",
+          "worldtree-fact-dev-12727",
+          "worldtree-fact-test-15741",
+          "worldtree-fact-test-15753",
+          "worldtree-fact-test-15791"
+        ],
+        "pred_chain": [],
+        "true_chain": [
+          "d1e5-99a8-b08b-6e3d"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      }
+    ],
+    "evaluated_samples": 20,
+    "k": 5
+  },
+  "our_model": {
+    "summary": {
+      "Precision@K": 0.2,
+      "Recall@K": 1.0,
+      "CCCS": 0.15384615384615385,
+      "MH-Acc": 0.15384615384615385,
+      "F1": 0.31,
+      "EM": 0.25,
+      "HR": 0.6,
+      "EAA": 1.0,
+      "CDCS": 0.1824190230076653,
+      "OMRS": 0.1877257069022996
+    },
+    "per_case": [
+      {
+        "index": 0,
+        "id": "5a7a06935542990198eaf050",
+        "dataset": "hotpotqa",
+        "query": "Which magazine was started first Arthur's Magazine or First for Women?",
+        "gold_answer": "Arthur's Magazine",
+        "pred_answer": "First",
+        "retrieved_ids": [
+          "5ade7d0655429975fa854eda",
+          "5addf83d5542997dc79070f2",
+          "5a7a06935542990198eaf050",
+          "5ab69e8f554299710c8d1eef",
+          "5abb142e5542992ccd8e7f04",
+          "a4e49486-d525-4746-9518-af4f7c49df52",
+          "ee56f8fa-0916-4764-bb6f-b0feccb12400",
+          "82b99f53-64dd-4b75-9211-a9c57b924136",
+          "b42c27b6-3b86-4815-a528-8d50657dcb68",
+          "b6cc303b-4a70-4396-9c5d-0e30d83d136b"
+        ],
+        "pred_chain": [
+          "the founders of arthur's magazine and first for women decided to start their respective magazines.",
+          "arthur's magazine was founded earlier than first for women.",
+          "proximal effects linking arthur's magazine was founded earlier than first for women. to first for women was started later than arthur's magazine.",
+          "first for women was started later than arthur's magazine."
+        ],
+        "true_chain": [
+          "Arthur's Magazine",
+          "First for Women"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 1.0,
+          "MH-Acc": 1.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.5266106442577031,
+          "OMRS": 0.5579831932773109
+        }
+      },
+      {
+        "index": 1,
+        "id": "5a879ab05542996e4f30887e",
+        "dataset": "hotpotqa",
+        "query": "The Oberoi family is part of a hotel company that has a head office in what city?",
+        "gold_answer": "Delhi",
+        "pred_answer": "The Oberoi",
+        "retrieved_ids": [
+          "5a879ab05542996e4f30887e",
+          "5a75d338554299109176e5a0",
+          "2fd4dc3c-a2a1-4db3-a5b4-f62969014455",
+          "8f52476a-a575-4a60-8362-179ef79ea494",
+          "d344b923-5609-4d24-98f0-3d75a04e5b42",
+          "89fc171b-3f50-4c70-979d-d28fc128f708",
+          "27d0b7ad-29b9-4969-9db2-fadae5245977"
+        ],
+        "pred_chain": [
+          "the oberoi family is part of a hotel company",
+          "this hotel company has a head office",
+          "in some city, unknown",
+          "that city"
+        ],
+        "true_chain": [
+          "Oberoi family",
+          "The Oberoi Group"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.15,
+          "OMRS": 0.045
+        }
+      },
+      {
+        "index": 2,
+        "id": "5a8d7341554299441c6b9fe5",
+        "dataset": "hotpotqa",
+        "query": "Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who?",
+        "gold_answer": "President Richard Nixon",
+        "pred_answer": "The Simpsons",
+        "retrieved_ids": [
+          "5ab75e5255429928e1fe3851",
+          "5a7e20e855429934daa2fbd6",
+          "5a86f6b2554299211dda2b6d",
+          "5a764d1c5542992db9473750",
+          "5a8d7341554299441c6b9fe5",
+          "0f4dba22-dad0-478b-8791-04318f40be23",
+          "6e39dc02-ef2d-4151-9f71-82a28b1092c1",
+          "76677649-4367-4f2a-9967-b243929aabfe",
+          "2623c422-bfb7-4eb8-bf6e-0ab96f43c641",
+          "938cf18f-112e-44b3-a4b1-11deaceaf7ff"
+        ],
+        "pred_chain": [
+          "allie goertz wrote a song",
+          "the song is about \"the simpsons\" character milhouse",
+          "matt groening named milhouse after _______ (unknown intermediate step)",
+          "matt groening"
+        ],
+        "true_chain": [
+          "Allie Goertz",
+          "Milhouse Van Houten"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.146011396011396,
+          "OMRS": 0.0438034188034188
+        }
+      },
+      {
+        "index": 3,
+        "id": "5a82171f5542990a1d231f4a",
+        "dataset": "hotpotqa",
+        "query": "What nationality was James Henry Miller's wife?",
+        "gold_answer": "American",
+        "pred_answer": "Henry IV",
+        "retrieved_ids": [
+          "5a82171f5542990a1d231f4a",
+          "5ac10565554299012d1db684",
+          "5a795f8755429907847277f8",
+          "5adcfa3e55429947343537eb",
+          "b6bfb06b-5bf5-4b5f-8184-6ee4cd4df585",
+          "6d9c7120-4b8d-429c-b5d3-15b3481c572b",
+          "5ddcff39-fa46-40c4-9fde-f85eb09a4c50",
+          "e64dee01-42e2-45fe-868c-cdc36cb733c3",
+          "9a33e8f8-159a-4466-aff5-87934c45a907"
+        ],
+        "pred_chain": [
+          "james henry miller existed",
+          "he married someone",
+          "she had a nationality",
+          "her nationality was known",
+          "both henry (1553\u20131610) and his first wife marguerite of valois, whom he married in 1572, were repeatedly unfaithful to each other, and the collapse of their marriage",
+          "their estrangement and living apart",
+          "although henry fathered children with a series of mistresses, his lack of a legitimate heir became a",
+          "of concern, and his marriage was not annulled until 1599",
+          "henry was unfaithful to his second wife as well and insisted that she",
+          "his illegitimate children along with her own"
+        ],
+        "true_chain": [
+          "Peggy Seeger",
+          "Ewan MacColl"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.059106753812636165,
+          "OMRS": 0.01773202614379085
+        }
+      },
+      {
+        "index": 4,
+        "id": "5a84dd955542997b5ce3ff79",
+        "dataset": "hotpotqa",
+        "query": "Cadmium Chloride is slightly soluble in this chemical, it is also called what?",
+        "gold_answer": "alcohol",
+        "pred_answer": "Cadmium",
+        "retrieved_ids": [
+          "5a84dd955542997b5ce3ff79",
+          "5ae082f955429924de1b70f6",
+          "5a74751555429979e288295a",
+          "b86e6834-4309-441e-b2eb-86e226531d14",
+          "worldtree-fact-train-10231",
+          "ee4b47c7-8339-420c-a986-66ea0b99a2da",
+          "d9422d04-992c-4776-a0d4-1b0b73ea2520",
+          "0efea2c9-329e-4334-85dd-fab46f319d1f"
+        ],
+        "pred_chain": [
+          "the desire to know the name of a substance",
+          "researching the properties of cadmium chloride",
+          "discovering that it is slightly soluble in a certain chemical",
+          "knowing that it is also called something else"
+        ],
+        "true_chain": [
+          "Cadmium chloride",
+          "Ethanol"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 1.0,
+          "CDCS": 0.06734006734006734,
+          "OMRS": 0.0202020202020202
+        }
+      },
+      {
+        "index": 5,
+        "id": "5a7e36045542991319bc9440",
+        "dataset": "hotpotqa",
+        "query": "Which tennis player won more Grand Slam titles, Henri Leconte or Jonathan Stark?",
+        "gold_answer": "Jonathan Stark",
+        "pred_answer": "Jonathan Stark",
+        "retrieved_ids": [
+          "5a7e36045542991319bc9440",
+          "5a7cb02f554299683c1c6337",
+          "5a794ebd554299029c4b5f50",
+          "5a749e7955429979e28829c6",
+          "5a90ce475542990a984936d7",
+          "d8c983be-1e1d-4092-a399-e252e0dc8ebb",
+          "0cf45441-58e3-4b71-aa7a-586d417accdd",
+          "81b99258-820a-4f9f-8203-82846d605763",
+          "5e0f4ce7-bafd-4576-9601-82b284676cd0",
+          "f4fca863-62f0-4de7-b038-6edeb91aec24"
+        ],
+        "pred_chain": [
+          "henri leconte and jonathan stark played professional tennis.",
+          "they competed in various grand slam tournaments.",
+          "the outcome of each match was determined by their individual skills and performances.",
+          "henri leconte won more grand slam titles than jonathan stark."
+        ],
+        "true_chain": [
+          "Jonathan Stark (tennis)",
+          "Henri Leconte"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.0,
+          "OMRS": 0.3
+        }
+      },
+      {
+        "index": 6,
+        "id": "5adf44985542993a75d2646d",
+        "dataset": "hotpotqa",
+        "query": "Which genus of moth in the world's seventh-largest country contains only one species?",
+        "gold_answer": "Crambidae",
+        "pred_answer": "Only",
+        "retrieved_ids": [
+          "5adf29c15542993a75d263fc",
+          "5adf44985542993a75d2646d",
+          "5ab57e7c554299488d4d99bb",
+          "5a85ed315542996432c57133",
+          "5aba8aa655429901930fa81d",
+          "4c9f6a31-42e9-45ca-a6e5-d072eaac0432",
+          "25fb0fe0-4fbb-4202-8902-a9049d823f04",
+          "dc5478de-e3a4-48c8-a4a2-5fc166a3a02e",
+          "6fc9040b-e9fc-489e-8b4e-fba9475366c2",
+          "9d24cf3a-e1fe-4df9-81c0-58c326c9e1df"
+        ],
+        "pred_chain": [
+          "the world has countries.",
+          "one of those countries is the 7th largest.",
+          "this country has a specific genus of moths.",
+          "that genus contains only one species."
+        ],
+        "true_chain": [
+          "Indogrammodes",
+          "India"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.11363636363636365,
+          "OMRS": 0.034090909090909095
+        }
+      },
+      {
+        "index": 7,
+        "id": "5a832c3455429954d2e2ec41",
+        "dataset": "hotpotqa",
+        "query": "Who was once considered the best kick boxer in the world, however he has been involved in a number of controversies relating to his \"unsportsmanlike conducts\" in the sport and crimes of violence outside of the ring.",
+        "gold_answer": "Badr Hari",
+        "pred_answer": "The",
+        "retrieved_ids": [
+          "5a7e677c5542991319bc9491",
+          "5abfbfc15542994516f454ed",
+          "5ae4021a5542996836b02c15",
+          "5a87bbd95542996e4f3088fb",
+          "5a832c3455429954d2e2ec41",
+          "934cec3b-c232-4e90-b351-aa53197d6102",
+          "2781cb4a-839e-4165-ab69-9f320d5421b5",
+          "b0b2c852-e20c-44f3-aaab-cc5b799d836e",
+          "096684d9-1db5-4244-b8ad-6b840749e1fb",
+          "2946e300-771a-455c-8225-330395eca519"
+        ],
+        "pred_chain": [
+          "he was once considered the best kickboxer in the world.",
+          "this consideration led to him being involved in a number of controversies.",
+          "these controversies were related to his \"unsportsmanlike conducts\" in the sport and crimes of violence outside of the ring.",
+          "as a result, he is no longer considered the best kickboxer in the world.",
+          "his martial arts background and that\u2019s what inspired him to pursue the rights to the original",
+          "develop a reboot of the franchise and ultimately write, produce and direct a contemporary version of the pop culture, iconic kickboxer"
+        ],
+        "true_chain": [
+          "Global Fighting Championship",
+          "Badr Hari"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.04543474069789859,
+          "OMRS": 0.013630422209369575
+        }
+      },
+      {
+        "index": 8,
+        "id": "5a7d0db955429909bec76924",
+        "dataset": "hotpotqa",
+        "query": "The Dutch-Belgian television series that \"House of Anubis\" was based on first aired in what year?",
+        "gold_answer": "2006",
+        "pred_answer": "2011",
+        "retrieved_ids": [
+          "5ab975e05542996be2020505",
+          "5a7d0db955429909bec76924",
+          "5ab73fef5542992aa3b8c7f9",
+          "5a7c11eb5542997c3ec972db",
+          "b4a39093-ffc0-41e0-a4be-0ad04d888a32",
+          "761fcb7e-7d4b-4522-b1fc-f8dabcb517d1",
+          "4f78c2aa-984a-455c-a575-086256432672",
+          "d69746c1-94c0-4f86-a615-5cb01b799d7e",
+          "f83d31df-5483-4916-88b1-f500649e2acc"
+        ],
+        "pred_chain": [
+          "the creation of a dutch-belgian television series",
+          "the inspiration for this series came from an existing show",
+          "proximal effects linking the inspiration for this series came from an existing show to first airing of the original series in a specific year",
+          "first airing of the original series in a specific year"
+        ],
+        "true_chain": [
+          "House of Anubis",
+          "Het Huis Anubis"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 1.0,
+          "CDCS": 0.36500754147812975,
+          "OMRS": 0.10950226244343893
+        }
+      },
+      {
+        "index": 9,
+        "id": "5a89372855429951533612e6",
+        "dataset": "hotpotqa",
+        "query": "What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged?",
+        "gold_answer": "6.213 km long",
+        "pred_answer": "The",
+        "retrieved_ids": [
+          "5a89372855429951533612e6",
+          "87294efe-b51a-4858-890a-a0cd4ca835cc",
+          "ad7f3204-56ba-4864-91d4-c6864b16bc82",
+          "63404bd7-9c0f-40fd-ae81-4e5583852593",
+          "b66a4573-c791-4fa4-8f9c-887fffabdeb0",
+          "c5e66c82-22f7-4c6d-9686-ac9347b34543"
+        ],
+        "pred_chain": [
+          "the 2013 liqui moly bathurst 12 hour was held.",
+          "it was staged at the mount panorama circuit.",
+          "the mount panorama circuit is a track with a length of ...",
+          "... which is the answer to the question.",
+          "this has",
+          "unprecedented domestic and international exposure for the event"
+        ],
+        "true_chain": [
+          "2013 Liqui Moly Bathurst 12 Hour",
+          "Mount Panorama Circuit"
+        ],
+        "metrics": {
+          "Precision@K": 0.2,
+          "Recall@K": 1.0,
+          "CCCS": 1.0,
+          "MH-Acc": 1.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 0.0,
+          "EAA": 1.0,
+          "CDCS": 0.1422222222222222,
+          "OMRS": 0.44266666666666665
+        }
+      },
+      {
+        "index": 10,
+        "id": "MDSA_2009_5_16",
+        "dataset": "worldtree",
+        "query": "Students visited the Morris W. Offit telescope located at the Maryland Space Grant Observatory in Baltimore. They learned about the stars, planets, and moon. The students recorded the information below. \u2022 Star patterns stay the same, but their locations in the sky seem to change. \u2022 The sun, planets, and moon appear to move in the sky. \u2022 Proxima Centauri is the nearest star to our solar system. \u2022 Polaris is a star that is part of a pattern of stars called the Little Dipper. Which statement best explains why the sun appears to move across the sky each day? (A) The sun revolves around Earth. (B) Earth rotates around the sun. (C) The sun revolves on its axis. (D) Earth rotates on its axis.",
+        "gold_answer": "Earth rotates on its axis",
+        "pred_answer": "The sun revolves around Earth",
+        "retrieved_ids": [
+          "worldtree-fact-train-10",
+          "worldtree-fact-train-15",
+          "worldtree-fact-test-15501",
+          "worldtree-fact-train-0",
+          "worldtree-fact-train-35"
+        ],
+        "pred_chain": [
+          "students visited the morris w. offit telescope located at the maryland space grant observatory in baltimore.",
+          "they learned about the stars, planets, and moon.",
+          "proximal effects linking they learned about the stars, planets, and moon. to the sun appears to move across the sky each day.",
+          "the sun appears to move across the sky each day.",
+          "the earth rotating on its axis",
+          "the sun to appear to move across the sky during the day",
+          "the earth revolving around the sun",
+          "stars to appear in different areas in the sky at different times of year",
+          "(stars ; the moon) to appear to move across the sky at night"
+        ],
+        "true_chain": [
+          "73fa-1e22-26a8-1a7c"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.20000000000000004,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.21333399787347154,
+          "OMRS": 0.12400019936204147
+        }
+      },
+      {
+        "index": 11,
+        "id": "Mercury_SC_415491",
+        "dataset": "worldtree",
+        "query": "Earth orbits the Sun once a year. About how many times does the moon orbit Earth in a year? (A) 1 (B) 7 (C) 13 (D) 28",
+        "gold_answer": "13",
+        "pred_answer": "Earth",
+        "retrieved_ids": [
+          "worldtree-fact-dev-12697",
+          "worldtree-fact-train-174",
+          "worldtree-fact-train-218",
+          "worldtree-fact-train-219",
+          "worldtree-fact-train-220"
+        ],
+        "pred_chain": [
+          "the moon's orbital period around earth is influenced by its distance from earth.",
+          "the moon's distance from earth varies due to its elliptical orbit.",
+          "the moon takes approximately 27.3 days to complete one orbit around earth.",
+          "therefore, the moon orbits earth about 13 times in a year."
+        ],
+        "true_chain": [
+          "1a29-2268-eeb7-edba"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.29285714285714287,
+          "OMRS": 0.08785714285714286
+        }
+      },
+      {
+        "index": 12,
+        "id": "Mercury_SC_408040",
+        "dataset": "worldtree",
+        "query": "Melinda learned that days in some seasons have more daylight hours than in other seasons. Which season receives the most hours of sunlight in the Northern Hemisphere? (A) fall (B) spring (C) summer (D) winter",
+        "gold_answer": "summer",
+        "pred_answer": "fall",
+        "retrieved_ids": [
+          "worldtree-fact-train-93",
+          "worldtree-fact-test-15558",
+          "worldtree-fact-test-15582",
+          "worldtree-fact-test-15614",
+          "worldtree-fact-test-15773"
+        ],
+        "pred_chain": [
+          "melinda's curiosity about daylight hours drives her to learn about seasonal differences.",
+          "her learning reveals that some seasons have more daylight hours than others.",
+          "this knowledge leads her to wonder which season receives the most sunlight in the northern hemisphere.",
+          "she concludes that summer receives the most hours of sunlight in the northern hemisphere."
+        ],
+        "true_chain": [
+          "564e-eb72-a12b-dbaa",
+          "3f3f-f2cb-ae3d-f238"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.1776315789473684,
+          "OMRS": 0.05328947368421052
+        }
+      },
+      {
+        "index": 13,
+        "id": "NYSEDREGENTS_2014_4_2",
+        "dataset": "worldtree",
+        "query": "About how long does it take Earth to make one revolution around the Sun? (A) a day (B) a week (C) a month (D) a year",
+        "gold_answer": "a year",
+        "pred_answer": "a year",
+        "retrieved_ids": [
+          "worldtree-fact-train-174",
+          "worldtree-fact-train-218",
+          "worldtree-fact-train-219",
+          "worldtree-fact-train-220",
+          "worldtree-fact-train-224"
+        ],
+        "pred_chain": [
+          "the earth's orbit is determined by its velocity and distance from the sun.",
+          "the earth's velocity is influenced by its mass and the gravitational force of the sun.",
+          "the gravitational force of the sun causes the earth to follow an elliptical path around it.",
+          "as a result, it takes approximately 365.25 days for the earth to make one revolution around the sun.",
+          "the earth rotating on its axis",
+          "the sun to appear to move across the sky during the day",
+          "the sun rising and setting",
+          "cycles of day and night",
+          "natural events usually",
+          "changes to earth 's surface",
+          "the earth revolving around the sun",
+          "the seasons (to change ; to occur) on its axis"
+        ],
+        "true_chain": [
+          "e682-f47d-cc9c-a67c"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.15731270324571758,
+          "OMRS": 0.34719381097371527
+        }
+      },
+      {
+        "index": 14,
+        "id": "Mercury_SC_400655",
+        "dataset": "worldtree",
+        "query": "Which of these is the greatest change that can be observed between summer and winter? (A) the amounts of daylight (B) the heights of ocean waves (C) the numbers of storms (D) the sizes of clouds",
+        "gold_answer": "the amounts of daylight",
+        "pred_answer": "the amounts of daylight",
+        "retrieved_ids": [
+          "worldtree-fact-train-124",
+          "worldtree-fact-train-2455",
+          "worldtree-fact-train-2477",
+          "worldtree-fact-train-3897",
+          "worldtree-fact-dev-14201"
+        ],
+        "pred_chain": [
+          "the earth's tilt",
+          "the tilt affects the amount of sunlight that reaches the planet",
+          "the amount of sunlight determines the amounts of daylight",
+          "the greatest change in daylight is observed between summer and winter",
+          "amount of water in a body of water",
+          "by (storms ; rain ; glaciers melting ; snow melting ; ice melting)",
+          "as the distance of a location from the north pole becomes (smaller ; closer) , the amount of daylight received by that location will",
+          "during the summer",
+          "seasons",
+          "change to the environment"
+        ],
+        "true_chain": [
+          "3d48-ef4c-bf06-a0c5",
+          "b695-f668-1dec-659c",
+          "624a-c1ec-8c85-45ce"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.0790328498661832,
+          "OMRS": 0.32370985495985494
+        }
+      },
+      {
+        "index": 15,
+        "id": "MDSA_2011_5_6",
+        "dataset": "worldtree",
+        "query": "Planets in our solar system have different solar years. Which statement explains the cause of an Earth solar year? (A) Earth rotates around the sun. (B) Earth revolves around the sun. (C) The sun rotates around Earth. (D) The sun revolves around Earth.",
+        "gold_answer": "Earth revolves around the sun",
+        "pred_answer": "Earth rotates around the sun",
+        "retrieved_ids": [
+          "worldtree-fact-train-174",
+          "worldtree-fact-train-218",
+          "worldtree-fact-train-219",
+          "worldtree-fact-train-220",
+          "worldtree-fact-train-224"
+        ],
+        "pred_chain": [
+          "the sun rotates around earth.",
+          "biological and environmental mechanisms connecting the sun rotates around earth. to planets in our solar system have different solar years.",
+          "downstream physiological effects that directly increase planets in our solar system have different solar years.",
+          "planets in our solar system have different solar years.",
+          "the earth revolving around the sun",
+          "the seasons (to change ; to occur) on its axis",
+          "earth orbiting the sun",
+          "seasons to change",
+          "a planet 's distance from the star",
+          "the length of a planetary year"
+        ],
+        "true_chain": [
+          "e682-f47d-cc9c-a67c"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.8000000000000002,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.16367090252426997,
+          "OMRS": 0.28910127075728104
+        }
+      },
+      {
+        "index": 16,
+        "id": "Mercury_7011270",
+        "dataset": "worldtree",
+        "query": "About how long does it take for the Moon to complete one revolution around Earth? (A) 7 days (B) 30 days (C) 90 days (D) 365 days",
+        "gold_answer": "30 days",
+        "pred_answer": "Earth",
+        "retrieved_ids": [
+          "worldtree-fact-train-870",
+          "worldtree-fact-dev-12713",
+          "worldtree-fact-dev-12724",
+          "worldtree-fact-test-15647",
+          "worldtree-fact-test-15767"
+        ],
+        "pred_chain": [
+          "the moon's orbit is influenced by its gravitational interaction with earth.",
+          "this interaction causes the moon's orbital period to be determined by its velocity and distance from earth.",
+          "the moon's velocity and distance from earth affect the time it takes for the moon to complete one revolution around earth.",
+          "as a result, the moon completes one revolution around earth in approximately 27.3 days (not among the given options)."
+        ],
+        "true_chain": [
+          "b9b5-0df2-9cca-ef36",
+          "74a1-0a11-f9ce-9501",
+          "9baa-2f01-60c7-64fa"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.0,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.28560972039232907,
+          "OMRS": 0.08568291611769872
+        }
+      },
+      {
+        "index": 17,
+        "id": "Mercury_7137463",
+        "dataset": "worldtree",
+        "query": "India is in the Northern Hemisphere and Australia is in the Southern Hemisphere. In June, it is summer in India and winter in Australia. What is the main reason the seasons are opposite in the two countries? (A) because Earth is tilted on its axis (B) because the Sun rotates on its axis (C) because Earth revolves around the Sun (D) because of the distance between the countries",
+        "gold_answer": "because Earth is tilted on its axis",
+        "pred_answer": "because Earth is tilted on its axis",
+        "retrieved_ids": [
+          "worldtree-fact-dev-12721",
+          "worldtree-fact-test-15560",
+          "worldtree-fact-test-15623",
+          "worldtree-fact-train-180",
+          "worldtree-fact-train-195"
+        ],
+        "pred_chain": [
+          "because earth is tilted on its axis",
+          "biological and environmental mechanisms connecting because earth is tilted on its axis to this results in opposite seasons in india and australia",
+          "downstream physiological effects that directly increase this results in opposite seasons in india and australia",
+          "this results in opposite seasons in india and australia",
+          "the earth being tilted on its rotating axis",
+          "seasons",
+          "the earth being tilted on its axis",
+          "(one side of the earth ; one hemisphere) to receive less energy from the sun than the other side",
+          "earth 's tilt on its rotating axis",
+          "seasons (to change ; to occur)"
+        ],
+        "true_chain": [
+          "0b7b-cf23-e64f-4200"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.15073815073815075,
+          "OMRS": 0.3452214452214452
+        }
+      },
+      {
+        "index": 18,
+        "id": "Mercury_189770",
+        "dataset": "worldtree",
+        "query": "Why has only one-half of the Moon ever been observed from Earth? (A) The Moon does not rotate on its axis. (B) The Moon is not visible during the day. (C) The Moon has phases that coincide with its rate of rotation. (D) The Moon rotates at the same rate that it revolves around Earth.",
+        "gold_answer": "The Moon rotates at the same rate that it revolves around Earth",
+        "pred_answer": "The Moon does not rotate on its axis",
+        "retrieved_ids": [
+          "worldtree-fact-train-308",
+          "worldtree-fact-train-320",
+          "worldtree-fact-dev-12723",
+          "worldtree-fact-test-15766",
+          "worldtree-fact-train-309"
+        ],
+        "pred_chain": [
+          "the moon does not rotate on its axis.",
+          "biological and environmental mechanisms connecting the moon does not rotate on its axis. to only one-half of the moon is observable from earth.",
+          "downstream physiological effects that directly increase only one-half of the moon is observable from earth.",
+          "only one-half of the moon is observable from earth.",
+          "the moon (revolving around ; orbiting) the earth",
+          "the phases of the moon"
+        ],
+        "true_chain": [],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 0.2,
+          "EM": 0.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.3704184704184704,
+          "OMRS": 0.17112554112554113
+        }
+      },
+      {
+        "index": 19,
+        "id": "Mercury_177818",
+        "dataset": "worldtree",
+        "query": "The length of time between night and day on Earth varies throughout the year. This time variance is explained primarily by (A) the position of the Sun. (B) the position of the Moon. (C) Earth's angle of tilt (D) Earth's distance from the Sun",
+        "gold_answer": "Earth's angle of tilt",
+        "pred_answer": "Earth's angle of tilt",
+        "retrieved_ids": [
+          "worldtree-fact-train-334",
+          "worldtree-fact-dev-12727",
+          "worldtree-fact-test-15741",
+          "worldtree-fact-test-15753",
+          "worldtree-fact-test-15791"
+        ],
+        "pred_chain": [
+          "the position of the sun",
+          "intermediate mechanisms linking the position of the sun to earth's angle of tilt",
+          "earth's angle of tilt",
+          "the length of time between night and day on earth varies throughout the year",
+          "as the rotation speed of a planet",
+          "the length of day and night will decrease on that planet",
+          "earth 's angle of tilt",
+          "the length of day and night to vary"
+        ],
+        "true_chain": [
+          "d1e5-99a8-b08b-6e3d"
+        ],
+        "metrics": {
+          "Precision@K": 0.0,
+          "Recall@K": 0.0,
+          "CCCS": 0.0,
+          "MH-Acc": 0.0,
+          "F1": 1.0,
+          "EM": 1.0,
+          "HR": 1.0,
+          "EAA": 0.0,
+          "CDCS": 0.14240521383378527,
+          "OMRS": 0.34272156415013555
+        }
+      }
+    ],
+    "evaluated_samples": 20,
+    "k": 5
+  },
+  "comparison_rows": [
+    {
+      "Metric": "Precision@K",
+      "Baseline": "0.2000",
+      "Our Model": "0.2000",
+      "Improvement": "+0.0000"
+    },
+    {
+      "Metric": "Recall@K",
+      "Baseline": "1.0000",
+      "Our Model": "1.0000",
+      "Improvement": "+0.0000"
+    },
+    {
+      "Metric": "CCCS",
+      "Baseline": "0.0000",
+      "Our Model": "0.1538",
+      "Improvement": "+0.1538"
+    },
+    {
+      "Metric": "MH-Acc",
+      "Baseline": "0.0000",
+      "Our Model": "0.1538",
+      "Improvement": "+0.1538"
+    },
+    {
+      "Metric": "F1",
+      "Baseline": "0.5329",
+      "Our Model": "0.3100",
+      "Improvement": "-0.2229"
+    },
+    {
+      "Metric": "EM",
+      "Baseline": "0.4500",
+      "Our Model": "0.2500",
+      "Improvement": "-0.2000"
+    },
+    {
+      "Metric": "HR",
+      "Baseline": "0.4500",
+      "Our Model": "0.6000",
+      "Improvement": "+0.1500"
+    },
+    {
+      "Metric": "EAA",
+      "Baseline": "1.0000",
+      "Our Model": "1.0000",
+      "Improvement": "+0.0000"
+    },
+    {
+      "Metric": "CDCS",
+      "Baseline": "0.0000",
+      "Our Model": "0.1824",
+      "Improvement": "+0.1824"
+    },
+    {
+      "Metric": "OMRS",
+      "Baseline": "0.1599",
+      "Our Model": "0.1877",
+      "Improvement": "+0.0279"
+    }
+  ],
+  "comparison_table": "Metric            | Baseline | Our Model | Improvement\n------------------------------------------------------\nPrecision@K       |   0.2000 |    0.2000 |     +0.0000\nRecall@K          |   1.0000 |    1.0000 |     +0.0000\nCCCS              |   0.0000 |    0.1538 |     +0.1538\nMH-Acc            |   0.0000 |    0.1538 |     +0.1538\nF1                |   0.5329 |    0.3100 |     -0.2229\nEM                |   0.4500 |    0.2500 |     -0.2000\nHR                |   0.4500 |    0.6000 |     +0.1500\nEAA               |   1.0000 |    1.0000 |     +0.0000\nCDCS              |   0.0000 |    0.1824 |     +0.1824\nOMRS              |   0.1599 |    0.1877 |     +0.0279"
+}

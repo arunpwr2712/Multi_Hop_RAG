@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "datasets": [
+      "C:\\Users\\arunp\\Documents\\project\\M.Tech Major Project\\Multihob_RAG_backend\\backend\\datasets\\raw\\hotpotqa\\dev.json",
+      "C:\\Users\\arunp\\Documents\\project\\M.Tech Major Project\\Multihob_RAG_backend\\backend\\datasets\\raw\\hotpotqa\\train.json"
+    ],
+    "cases": 15,
+    "top_k": 5,
+    "grounding_threshold": 0.35
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python_version": "3.12.6",
+    "cpu_count": 12,
+    "ram_gb": 15.73
+  },
+  "baseline": {
+    "factual_accuracy": 0.4666666666666667,
+    "causal_completeness": 0.4611111111111111,
+    "hallucination_rate": 0.26666666666666666,
+    "multi_hop_quality": 0.5666666666666667,
+    "precision_at_k": 0.7133333333333334,
+    "recall_at_k": 0.6777777777777778,
+    "latency_ms": 2895.7720666666623
+  },
+  "multi_hop": {
+    "factual_accuracy": 0.7333333333333333,
+    "causal_completeness": 0.5888888888888889,
+    "hallucination_rate": 0.13333333333333333,
+    "multi_hop_quality": 0.6666666666666666,
+    "precision_at_k": 0.7133333333333334,
+    "recall_at_k": 0.6777777777777778,
+    "latency_ms": 49190.60441999997
+  },
+  "latency": {
+    "baseline_ms": 2895.7720666666623,
+    "multi_hop_ms": 49190.60441999997,
+    "slowdown_factor": 16.98704293277596,
+    "baseline_latencies": [
+      40381.31479999993,
+      188.5349000003771,
+      176.40729999948235,
+      216.45770000031916,
+      256.2330999999176,
+      270.87699999992765,
+      153.1803999996555,
+      353.8956000002145,
+      248.76949999998033,
+      150.4463000001124,
+      171.0438999998587,
+      208.3016000005955,
+      168.27329999978247,
+      237.25199999989854,
+      255.59359999988374
+    ],
+    "multi_hop_latencies": [
+      63918.4553999994,
+      44668.472100000145,
+      46595.27589999925,
+      58729.55300000012,
+      53470.58579999975,
+      37585.54510000067,
+      46215.47620000001,
+      47822.59840000006,
+      55370.432300000175,
+      44563.239999999496,
+      49440.58320000022,
+      32594.034400000055,
+      52844.805599999745,
+      46480.759500000204,
+      57559.249400000226
+    ]
+  },
+  "relative_gain": {
+    "factual_accuracy": 0.5714285714285713,
+    "causal_completeness": 0.2771084337349399,
+    "hallucination_reduction": 0.5,
+    "multi_hop_quality": 0.17647058823529407,
+    "precision_at_k": 0.0,
+    "recall_at_k": 0.0
+  }
+}

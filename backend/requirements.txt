@@ -1,0 +1,13 @@
+-r ./multi_hop_causal_rag/requirements.txt
+fastapi
+uvicorn[standard]
+pydantic
+sentence-transformers
+faiss-cpu
+networkx
+transformers
+pandas
+numpy
+scikit-learn
+tqdm
+langchain-community
